@@ -23,6 +23,6 @@ public class Variables {
 		System.out.println("");
 
 		System.out.println("variable1 = " + variable1 + " variable2 = " + variable2 + " variable3 = " + variable3 + " variable4 = " + variable4);
-		System.out.printf("variable1 = %d variable2 = %c variable3 = %f variable4 = %s",variable1,variable2,variable3,variable4);
+		System.out.printf("variable1 = %d variable2 = %c variable3 = %f variable4 = %S",variable1,variable2,variable3,variable4);
 	}
 }
