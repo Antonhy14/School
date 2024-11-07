@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <form class="form">
+        <h2>Datos del Huesped</h2>
+
+        <label for="rfc">RFC: </label>
+        <input type="text" placeholder="Ingrese su RFC: ">
+        <br>
+
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Ingrese su nombre: ">
+        <br>
+
+        <label for="tel">Telefono: </label>
+        <input type="text" placeholder="Ingrese su telefono: ">
+        <br>
+
+        <label for="mail">Correo: </label>
+        <input type="text" placeholder="Ingrese su correo: ">
+        <br>
+    </form>
+
+    <br> <br>
+
+    <form class="form">
+        <h2>Datos de la Reserva</h2>
+
+        <label for="fecha_llegada">Fecha de llegada </label>
+        <input type="date">
+        <br>
+
+        <label for="fecha_salida">Fecha de salida </label>
+        <input type="date">
+        <br>
+
+        <label for="noches">Noches: </label>
+        <input type="number">
+        <br>
+
+        <label for="tipo_pago">Tipo de pago: </label>
+        <ul>
+            <li>Tarjeta de Credido</li>
+            <li>Tarjeta de Debito</li>
+        </ul>
+        <br>
+    </form>
+
+    <br> <br>
+
+    <form class="form">
+        <h2>Datos de la Habitacion</h2>
+
+        <label for="num_hab">Numero de Habitacion </label>
+        <input type="text">
+        <br>
+
+        <label for="cap">Capacidad: </label>
+        <input type="number">
+        <br>
+
+        <label for="tipo_hab">Tipo de Habitacion: </label>
+        <ul>
+            <li>Nose 1</li>
+            <li>Nose 2</li>
+            <li>Nose 3</li>
+            <li>Nose 4</li>
+        </ul>
+        <br>
+    </form>
+
+    <br> <br>
+
+    <form class="form">
+        <h2>Servicios Adicionales</h2>
+
+        <label for="tipo_hab">Servicio: </label>
+        <ul>
+            <li>Nose 1</li>
+            <li>Nose 2</li>
+            <li>Nose 3</li>
+            <li>Nose 4</li>
+        </ul>
+        <br>
+    </form>
+
+    <br><br><br><br>
+
+    <div class="resumen">
+        <h2>Resumen de la reservacion</h2>
+
+        <h3>Datos del Huesped</h3>
+        <ul>RFC: <b>rfc</b></ul>
+        <ul>Nombre: <b>nombre</b></ul>
+        <ul>Telefono: <b>telefono</b></ul>
+        <ul>Correo: <b>correo</b></ul>
+        <br>
+
+        <h3>Datos de la Reserva</h3>
+        <ul>Fecha de llegada: <b>12/12/1234</b></ul>
+        <ul>Fecha de salida: <b>12/12/1234</b></ul>
+        <ul>Noches: <b>789</b></ul>
+        <ul>Tipo de Pago: <b>CI</b></ul>
+        <br>
+        
+        <h3>Datos de la Habitacion</h3>
+        <ul>Numero: <b>A1</b></ul>
+        <ul>Capacidad: <b>mucha</b></ul>
+        <ul>Tipo de Habitacion: <b>ci</b></ul>
+        <br>
+
+        
+        <h3>Servicios Adicionales</h3>
+        <ul><b>servicio1</b></ul>
+        <ul><b>servicio2</b></ul>
+        <ul><b>servicio3</b></ul>
+
+        <br>
+        <h3>Precio Total</h3>
+    </div>
+
+    <button><b>Reservar</b></button>
+
+</body>
+</html>
